@@ -5,7 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  /* background: rgb(157,194,253);
+  background: linear-gradient(90deg, rgba(157,194,253,1) 14%, rgba(168,204,255,1) 22%, rgba(139,178,249,1) 50%, rgba(114,155,243,1) 68%, rgba(112,153,243,1) 79%, rgba(108,150,242,1) 96%); */
+background-image: url("./assets/montañas.jpg"); 
+color: #ffffffba;
+ background-size: cover;
+};
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

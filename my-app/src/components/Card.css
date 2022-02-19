@@ -1,0 +1,41 @@
+.card {
+  backdrop-filter: blur(0.2rem);
+    background-color: hsla(0, 0%, 1%, 0.281);
+    border: 0.1rem solid rgba(124, 124, 124, 0.493);
+    margin: 20px;
+    width: 18rem;
+    box-shadow: -2px 5px 11px 4px rgb(35 37 41 / 30%);
+
+}
+
+.card-title {
+  margin-bottom: 15px;
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  /* margin-right: 8px;
+  margin-top: 8px; */
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+.btn {
+  color:white;
+  background-color: #dc3545;
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  border-color: #dc3545;
+  font-weight: 400;
+ 
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color:#df4857 ;
+  font-weight: 600;
+}
