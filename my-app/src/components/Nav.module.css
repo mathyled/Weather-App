@@ -1,0 +1,19 @@
+ .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(0.2rem);
+    background-color: hsla(0, 0%, 1%, 0.281);
+    border: 0.1rem solid rgba(124, 124, 124, 0.493);
+    margin: 20px;
+    /* width: 18rem; */
+    box-shadow: -2px 5px 11px 4px rgb(35 37 41 / 30%);
+    padding: 0px 10px;
+}
+
+.link:hover{
+    color: aliceblue;
+  
+}
+
+
