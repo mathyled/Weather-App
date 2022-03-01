@@ -1,23 +1,24 @@
 import React from "react";
 import {useParams} from "react-router-dom";
+import style from "./City.module.css";
 
 export default function City({onFilter}) {
     const {id} = useParams();
     console.log(id)
     const city = onFilter(id)
     return (
-        <div >
+        <div className={style.root} >
                 <div >
-                    <h2>{city.name}</h2>
-                    <div >
-                        <div>Temperatura: {city.temp} ºC</div>
-                        <div>Clima: {city.weather}</div>
-                        <div>Viento: {city.wind} km/h</div>
-                        <div>Cantidad de nubes: {city.clouds}</div>
-                        <div>Latitud: {city.latitud}º</div>
-                        <div>Longitud: {city.longitud}º</div>
-                    </div>
+                    <h2 className={style.name}>{city.name}</h2>
             </div>
+                    <div >
+                        <h4>Temperature: {city.temp} ºC</h4>
+                        <h4>Weather: {city.weather}</h4>
+                        <h4>Wind: {city.wind} km/h</h4>
+                        <h4>Clouds: {city.clouds}</h4>
+                        <h4>Latitud: {city.latitud}º</h4>
+                        <h4>Longitud: {city.longitud}º</h4>
+                    </div>
         </div>
     )
 }

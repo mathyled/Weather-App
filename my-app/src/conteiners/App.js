@@ -61,7 +61,7 @@ export default function App() {
       
       <Route 
       path="/about" 
-      element={<About name={"mathias"} />}
+      element={<About name={"Mathias"} />}
        />
 
         <Route
