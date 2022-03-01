@@ -12,7 +12,6 @@ export default function About({ name }) {
             <h3>JavaScript</h3>
             <h3>React</h3>
             <h3>CSS</h3>
-            <h3>React-icons</h3>
             <h3>Sweetalert2</h3>
 
         </div>
